@@ -1,4 +1,4 @@
-const url = "http://www.omdbapi.com/?apikey=" + apikey;
+const url = "https://www.omdbapi.com/?apikey=" + apikey;
 const Readme = (id) => {
     $.ajax({
         method: 'GET',
